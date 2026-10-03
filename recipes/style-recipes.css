@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pancakes h1 {
+  background-color: black;
+  color: yellow;
+}
+
+.pancakes .all-content {
+  text-align: center;
+}
+
+.pancakes-home-btn {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(255, 126, 127)
+}
+
+.pancakes .ingredience li {
+}
+
+.pancakes .ingredience {
+  display: inline-block;
+}
+
+.pancakes .instructions {
+  display: inline-block;
+  margin-left: 200px;
+  text-align: left;
+}
+
+.pancakes #lists-div {
+  border: 2px solid rgb(255, 180, 100);
+  margin: 5px 200px;
+  padding-left: 80px;
+}
+
+/* Hotdog page section */
+
+.hotdog .home-btn {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  border: 2px solid red;
+  margin: 0 45%;
+  background-color: rgb(127, 128, 255)
+}
+
+.hotdog #img {
+  text-align: right;
+}
+
+
+.hotdog img {
+  float: right;
+  width: 50%;
+}
+
+.hotdog h1 {
+  text-align: center;
+  border: 2px solid #000;
+  background-color: red;
+  color: rgb(127, 128, 255);
+  margin: 7px 45%;
+  margin-top: 0px;
+}
+
+.hotdog h2 {
+  font-family: "Copperplate";
+}
+
+.hotdog p {
+  margin-bottom: 10px;
+  margin-right: 50%;
+  border: 2px dotted rgb(127, 255, 127)
+}
+.hotdog .lists-div {
+  margin-right 100px;
+  padding-right: 50%;
+}
+
+.hotdog ol {
+  list-style-type: disc;
+  border: 2px dotted salmon;
+  margin-top: 10px;
+}
+
+.hotdog ul {
+  border: 2px dotted rgb(155, 200, 214);
+}
+

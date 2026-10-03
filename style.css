@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+h1 {
+  background-color: darkblue;
+  color: rgb(200, 55, 20);
+  text-align: center;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.recipes {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: 2px dotted rgb(200, 55, 20);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hotdog {
+  background-color: lightblue;
+  color: rgb(230, 20, 20);
+}
+
+#pancakes {
+  background-color: #FFF;
+  color: rgb(230, 20, 20);
+}
+
+#chicken-wings {
+  background-color: rgb(230, 20, 20);
+  color: lightblue;
+}
+.recipes li {
+  margin: 5px 5px;
+
+}
+
+.recipes li a {
+  font-family: "Arial";
+  text-decoration: none;
+}
