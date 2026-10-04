@@ -1,4 +1,5 @@
 * {
+  /* margin and padding makes bullets disappear out of list elements when given 0 value */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -84,12 +85,13 @@
 }
 
 .hotdog ol {
-  list-style-type: disc;
   border: 2px dotted salmon;
+  padding: 19px;
   margin-top: 10px;
 }
 
 .hotdog ul {
   border: 2px dotted rgb(155, 200, 214);
+  padding: 17px;
 }
 
