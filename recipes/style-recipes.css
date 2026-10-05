@@ -95,3 +95,30 @@
   padding: 17px;
 }
 
+/* Chicken-wings.html section */
+.chicken-wings #home-btn {
+  display:block;
+  text-align: right;
+  text-decoration: underline red;
+
+}
+
+.chicken-wings {
+  font-family: "Lucida Console", monospace;
+}
+
+.chicken-wings h2 {
+  margin-bottom: 5px;
+}
+.chicken-wings #instructions {
+  padding-left: 40px;
+}
+
+.chicken-wings #ingredience {
+  margin-top: 10px;
+  padding-left: 27px;
+  margin-bottom: 5px;
+}
+.chicken-wings #instructions {
+  display: inline-block;
+}
